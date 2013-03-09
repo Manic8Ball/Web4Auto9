@@ -8,25 +8,23 @@
     <style type="text/css">
         .style1
         {
-            width: 39%;
+            width: 101%;
         }
         .style2
         {
-            width: 125px;
-        }
-        .style3
-        {
-            width: 39%;
+            width: 150px;
         }
         .style4
         {
             width: 121px;
         }
+        
     </style>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div id="MainInput">
     
         <table class="style1">
             <tr>
@@ -55,9 +53,7 @@
         </table>
     
     </div>
-    <p>
-        &nbsp;</p>
-    <table class="style3">
+    <table class="newStyle3">
         <tr>
             <td class="style4">
         Commision:   
@@ -67,7 +63,7 @@
             </td>
         </tr>
     </table>
-    <br />
+   
     <asp:Button ID="CalculateButton" runat="server" Text="Calculate" />
     <asp:Button ID="ClearButton" runat="server" Text="Clear" />
     <asp:Button ID="PrintButton" runat="server" Text="Print" />

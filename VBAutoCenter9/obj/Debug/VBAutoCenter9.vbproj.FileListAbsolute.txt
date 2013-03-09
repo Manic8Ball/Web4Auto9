@@ -1,0 +1,10 @@
+C:\Users\Steven\Desktop\VBAutoCenter9\VBAutoCenter9\bin\VBAutoCenter9.dll
+C:\Users\Steven\Desktop\VBAutoCenter9\VBAutoCenter9\bin\VBAutoCenter9.pdb
+C:\Users\Steven\Desktop\VBAutoCenter9\VBAutoCenter9\bin\VBAutoCenter9.xml
+C:\Users\Steven\Desktop\VBAutoCenter9\VBAutoCenter9\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steven\Desktop\VBAutoCenter9\VBAutoCenter9\obj\Debug\VBAutoCenter9.Resources.resources
+C:\Users\Steven\Desktop\VBAutoCenter9\VBAutoCenter9\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Steven\Desktop\VBAutoCenter9\VBAutoCenter9\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Steven\Desktop\VBAutoCenter9\VBAutoCenter9\obj\Debug\VBAutoCenter9.dll
+C:\Users\Steven\Desktop\VBAutoCenter9\VBAutoCenter9\obj\Debug\VBAutoCenter9.xml
+C:\Users\Steven\Desktop\VBAutoCenter9\VBAutoCenter9\obj\Debug\VBAutoCenter9.pdb
