@@ -10,14 +10,42 @@
     margin: 30px 0;
 }
 
-#PrintButton, #CalculateButton, #ClearButton
+#CalculateButton, #ClearButton, #ExitButton
 {
-    margin: 0 10px 0 0;
+    margin: 10px 10px 10px 0;
+    position: relative;
+    right: 30px;
+
 }
 
-#MainInput 
+#ExteriorFinish, #AdditionalAccessories
 {
+    
     border: 1px solid #000000;
     padding: 10px;
     width:230px;
+}
+#MainArea 
+{
+    width: 350px;
+    position:absolute;
+    left: 260px;
+    
+}
+td 
+{
+    padding: 0 10px;
+    border-width: 0;
+}
+#MainArea tr:nth-child(2), #MainArea tr:nth-child(4), #MainArea tr:nth-child(6), #MainArea tr:nth-child(8)
+{
+    background:#EEEEEE;
+}
+h3 
+{
+    margin-top: 0;
+}
+h1
+{
+    margin-left: 190px;
 }

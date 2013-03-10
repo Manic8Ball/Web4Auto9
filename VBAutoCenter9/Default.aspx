@@ -5,69 +5,118 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
         .style1
         {
-            width: 101%;
+            width: 328px;
+            
         }
-        .style2
+        .style5
         {
-            width: 150px;
+            width: 107px;
         }
-        .style4
+        .style6
         {
-            width: 121px;
+            height: 23px;
+            width: 107px;
         }
-        
+        .style7
+        {
+            width: 69px;
+        }
+        .style8
+        {
+            height: 23px;
+            width: 69px;
+        }
     </style>
-    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="MainInput">
-    
-        <table class="style1">
-            <tr>
-                <td class="style2">
-                    Name:
-                </td>
-                <td>
-                    <asp:TextBox ID="NameTextBox" runat="server"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="style2">
-                    Selling Price:
-                </td>
-                <td>
-                    <asp:TextBox ID="SellingPriceTextBox" runat="server"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="style2">
-                    Cost Value:</td>
-                <td>
-                    <asp:TextBox ID="CostValueTextBox" runat="server"></asp:TextBox>
-                </td>
-            </tr>
-        </table>
+    <h1>VB Auto Center</h1>
+    <div id="MainArea">
+       <table class="style1">
+           <tr>
+               <td align="right" class="style7">
+                   Base Price</td>
+               <td class="style5">
+                   <asp:TextBox ID="BasePriceTextBox" runat="server"></asp:TextBox>
+               </td>
+           </tr>
+           <tr>
+               <td align="right" class="style7">
+                   Accessories and Finish</td>
+               <td class="style5">
+                   <asp:Label ID="FinishLabel" runat="server"></asp:Label>
+               </td>
+           </tr>
+           <tr>
+               <td align="right" class="style7">
+                   SubTotal</td>
+               <td class="style5" >
+                   <asp:Label ID="SubTotalLabel" runat="server"></asp:Label>
+               </td>
+           </tr>
+           <tr>
+               <td align="right" class="style8">
+                   Sales Tax (8%)</td>
+               <td class="style6">
+                   <asp:Label ID="SalesTaxLabel" runat="server"></asp:Label>
+               </td>
+           </tr>
+           <tr>
+               <td align="right" class="style7">
+                   Total w/ Tax</td>
+               <td class="style5">
+                   <asp:Label ID="TotalWTaxLabel" runat="server"></asp:Label>
+               </td>
+           </tr>
+           <tr>
+               <td align="right" class="style7">
+                   Trade in Allowance</td>
+               <td class="style5">
+                   <asp:TextBox ID="TradeInTextBox" runat="server"></asp:TextBox>
+               </td>
+           </tr>
+           <tr>
+               <td align="right" class="style7">
+                   Ammount Due</td>
+               <td class="style5">
+                   <asp:Label ID="AmntDueLabel" runat="server"></asp:Label>
+               </td>
+           </tr>
+           <tr>
+               <td align="right" class="style7" colspan="2">
+                   
+                    <asp:Button ID="CalculateButton" runat="server" Text="Calculate" />
+                    <asp:Button ID="ClearButton" runat="server" Text="Clear" />
+                       <asp:Button ID="ExitButton" runat="server" Text="Exit" />
+               </td>
+               
+           </tr>
+       </table>
+   </div>
+    <div id="AdditionalAccessories">
+    <h3>Additional Accessories</h3>
+        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+            <asp:ListItem>Stereo System</asp:ListItem>
+            <asp:ListItem>Leather Interior</asp:ListItem>
+            <asp:ListItem>Computer Navigation</asp:ListItem>
+        </asp:CheckBoxList>
     
     </div>
-    <table class="newStyle3">
-        <tr>
-            <td class="style4">
-        Commision:   
-            </td>
-            <td>
-                <asp:TextBox ID="CommisionTextBox" runat="server" style="margin-left: 0px"></asp:TextBox>
-            </td>
-        </tr>
-    </table>
+    <div id="ExteriorFinish">
+    <h3>Exterior Finish</h3>
+        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+            <asp:ListItem Selected="True">Standard</asp:ListItem>
+            <asp:ListItem>Pearlized</asp:ListItem>
+            <asp:ListItem>Customized</asp:ListItem>
+        </asp:RadioButtonList>
+    
+    </div>
    
-    <asp:Button ID="CalculateButton" runat="server" Text="Calculate" />
-    <asp:Button ID="ClearButton" runat="server" Text="Clear" />
-    <asp:Button ID="PrintButton" runat="server" Text="Print" />
-    <asp:Button ID="ExitButton" runat="server" Text="Exit" />
+
     
     </form>
     </body>

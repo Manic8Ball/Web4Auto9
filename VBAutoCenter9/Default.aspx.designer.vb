@@ -23,40 +23,67 @@ Partial Public Class _Default
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''NameTextBox control.
+    '''BasePriceTextBox control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents NameTextBox As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents BasePriceTextBox As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''SellingPriceTextBox control.
+    '''FinishLabel control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents SellingPriceTextBox As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents FinishLabel As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''CostValueTextBox control.
+    '''SubTotalLabel control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CostValueTextBox As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents SubTotalLabel As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''CommisionTextBox control.
+    '''SalesTaxLabel control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CommisionTextBox As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents SalesTaxLabel As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''TotalWTaxLabel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TotalWTaxLabel As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''TradeInTextBox control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TradeInTextBox As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''AmntDueLabel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents AmntDueLabel As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''CalculateButton control.
@@ -77,15 +104,6 @@ Partial Public Class _Default
     Protected WithEvents ClearButton As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''PrintButton control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents PrintButton As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''ExitButton control.
     '''</summary>
     '''<remarks>
@@ -93,4 +111,22 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ExitButton As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''CheckBoxList1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents CheckBoxList1 As Global.System.Web.UI.WebControls.CheckBoxList
+
+    '''<summary>
+    '''RadioButtonList1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadioButtonList1 As Global.System.Web.UI.WebControls.RadioButtonList
 End Class

@@ -47,33 +47,57 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:VBAutoCenter9._Default.NameTextBox">
+</member><member name="F:VBAutoCenter9._Default.BasePriceTextBox">
 	<summary>
-NameTextBox control.
+BasePriceTextBox control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:VBAutoCenter9._Default.SellingPriceTextBox">
+</member><member name="F:VBAutoCenter9._Default.FinishLabel">
 	<summary>
-SellingPriceTextBox control.
+FinishLabel control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:VBAutoCenter9._Default.CostValueTextBox">
+</member><member name="F:VBAutoCenter9._Default.SubTotalLabel">
 	<summary>
-CostValueTextBox control.
+SubTotalLabel control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:VBAutoCenter9._Default.CommisionTextBox">
+</member><member name="F:VBAutoCenter9._Default.SalesTaxLabel">
 	<summary>
-CommisionTextBox control.
+SalesTaxLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:VBAutoCenter9._Default.TotalWTaxLabel">
+	<summary>
+TotalWTaxLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:VBAutoCenter9._Default.TradeInTextBox">
+	<summary>
+TradeInTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:VBAutoCenter9._Default.AmntDueLabel">
+	<summary>
+AmntDueLabel control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -95,17 +119,25 @@ ClearButton control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:VBAutoCenter9._Default.PrintButton">
+</member><member name="F:VBAutoCenter9._Default.ExitButton">
 	<summary>
-PrintButton control.
+ExitButton control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:VBAutoCenter9._Default.ExitButton">
+</member><member name="F:VBAutoCenter9._Default.CheckBoxList1">
 	<summary>
-ExitButton control.
+CheckBoxList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:VBAutoCenter9._Default.RadioButtonList1">
+	<summary>
+RadioButtonList1 control.
 </summary>
 	<remarks>
 Auto-generated field.
