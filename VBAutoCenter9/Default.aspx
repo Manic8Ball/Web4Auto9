@@ -34,7 +34,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <h1>VB Auto Center</h1>
+    <h1>VB Auto Center
+    </h1><asp:RegularExpressionValidator ID="RegularExpressionValidator1" 
+            runat="server" ControlToValidate="BasePriceTextBox" 
+            ErrorMessage="Please enter Numbers for Base Price and Trade In" 
+            ValidationExpression="[0-9]+"></asp:RegularExpressionValidator>
     <div id="MainArea">
        <table class="style1">
            <tr>
@@ -114,6 +118,11 @@
         </asp:RadioButtonList>
     
     </div>
+   
+
+    
+    
+    <a href="Contact.aspx">Contact info</a>
    
 
     

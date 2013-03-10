@@ -53,3 +53,19 @@ h1
 {
     color: green;
 }
+#RegularExpressionValidator1 
+{
+    text-align: center;
+    font-weight: bolder;
+    color: Red;
+    background: #FFCCCC;
+    width: 250px;
+    height: 40px;
+    display: block;
+    padding: 10px;
+    position: absolute;
+    z-index: 5;
+    top: 110px;
+    left: 300px;
+    
+}

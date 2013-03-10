@@ -67,7 +67,7 @@
 
             End Try
         Else
-            MsgBox("Please enter Numbers for Base Price and Trade In")
+            ' MsgBox("Please enter Numbers for Base Price and Trade In")
         End If
     End Sub
 
