@@ -127,17 +127,17 @@ ExitButton control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:VBAutoCenter9._Default.CheckBoxList1">
+</member><member name="F:VBAutoCenter9._Default.AdditionalAccessoriesCheckBoxList">
 	<summary>
-CheckBoxList1 control.
+AdditionalAccessoriesCheckBoxList control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:VBAutoCenter9._Default.RadioButtonList1">
+</member><member name="F:VBAutoCenter9._Default.ExteriorFinishRadioList">
 	<summary>
-RadioButtonList1 control.
+ExteriorFinishRadioList control.
 </summary>
 	<remarks>
 Auto-generated field.

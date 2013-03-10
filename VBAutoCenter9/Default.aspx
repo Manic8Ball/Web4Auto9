@@ -99,7 +99,7 @@
    </div>
     <div id="AdditionalAccessories">
     <h3>Additional Accessories</h3>
-        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+        <asp:CheckBoxList ID="AdditionalAccessoriesCheckBoxList" runat="server">
             <asp:ListItem>Stereo System</asp:ListItem>
             <asp:ListItem>Leather Interior</asp:ListItem>
             <asp:ListItem>Computer Navigation</asp:ListItem>
@@ -108,7 +108,7 @@
     </div>
     <div id="ExteriorFinish">
     <h3>Exterior Finish</h3>
-        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+        <asp:RadioButtonList ID="ExteriorFinishRadioList" runat="server">
             <asp:ListItem Selected="True">Standard</asp:ListItem>
             <asp:ListItem>Pearlized</asp:ListItem>
             <asp:ListItem>Customized</asp:ListItem>

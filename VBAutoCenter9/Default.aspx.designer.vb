@@ -113,20 +113,20 @@ Partial Public Class _Default
     Protected WithEvents ExitButton As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''CheckBoxList1 control.
+    '''AdditionalAccessoriesCheckBoxList control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CheckBoxList1 As Global.System.Web.UI.WebControls.CheckBoxList
+    Protected WithEvents AdditionalAccessoriesCheckBoxList As Global.System.Web.UI.WebControls.CheckBoxList
 
     '''<summary>
-    '''RadioButtonList1 control.
+    '''ExteriorFinishRadioList control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RadioButtonList1 As Global.System.Web.UI.WebControls.RadioButtonList
+    Protected WithEvents ExteriorFinishRadioList As Global.System.Web.UI.WebControls.RadioButtonList
 End Class
