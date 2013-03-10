@@ -104,15 +104,6 @@ Partial Public Class _Default
     Protected WithEvents ClearButton As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''ExitButton control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ExitButton As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''AdditionalAccessoriesCheckBoxList control.
     '''</summary>
     '''<remarks>

@@ -91,7 +91,6 @@
                    
                     <asp:Button ID="CalculateButton" runat="server" Text="Calculate" />
                     <asp:Button ID="ClearButton" runat="server" Text="Clear" />
-                       <asp:Button ID="ExitButton" runat="server" Text="Exit" />
                </td>
                
            </tr>
