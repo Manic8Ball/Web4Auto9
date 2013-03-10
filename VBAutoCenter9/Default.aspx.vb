@@ -84,4 +84,20 @@
 
        
     End Sub
+
+    Protected Sub ClearButton_Click(ByVal sender As Object, ByVal e As EventArgs) Handles ClearButton.Click
+        BasePriceTextBox.Text = ""
+        TradeInTextBox.Text = ""
+        FinishLabel.Text = ""
+        SubTotalLabel.Text = ""
+        SalesTaxLabel.Text = ""
+        TotalWTaxLabel.Text = ""
+        AmntDueLabel.Text = ""
+        AdditionalAccessoriesCheckBoxList.Items.FindByText("Stereo System").Selected = False
+        AdditionalAccessoriesCheckBoxList.Items.FindByText("Leather Interior").Selected = False
+        AdditionalAccessoriesCheckBoxList.Items.FindByText("Computer Navigation").Selected = False
+        ExteriorFinishRadioList.Items.FindByText("Standard").Selected = True
+        ExteriorFinishRadioList.Items.FindByText("Pearlized").Selected = False
+        ExteriorFinishRadioList.Items.FindByText("Customized").Selected = False
+    End Sub
 End Class
